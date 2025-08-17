@@ -1,2 +1,2 @@
 # easyMath
-Smal c++ library made for a beginner project.
+Small c++ library written by a beginner as a simple project.
