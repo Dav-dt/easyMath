@@ -125,11 +125,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="complex\complex.cpp" />
+    <ClCompile Include="exp_log_pow\exp_log_pow.cpp" />
+    <ClCompile Include="geometry\trigonometrycpp.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="numberTheory\number.cpp" />
     <ClCompile Include="probability\probability.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="complex\complex.h" />
+    <ClInclude Include="exp_log_pow\exp_log_pow.h" />
+    <ClInclude Include="geometry\trigonometry.h" />
+    <ClInclude Include="numberTheory\number.h" />
     <ClInclude Include="probability\probability.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

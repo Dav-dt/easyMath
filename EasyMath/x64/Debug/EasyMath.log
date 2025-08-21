@@ -1,0 +1,5 @@
+﻿  exp_log_pow.cpp
+C:\Users\david\source\repos\EasyMath\EasyMath\exp_log_pow\exp_log_pow.cpp(24,29): warning C4244: 'argument' : conversion de 'const double' en 'const __int64', perte possible de données
+  main.cpp
+  Génération de code en cours...
+  EasyMath.vcxproj -> C:\Users\david\source\repos\EasyMath\x64\Debug\EasyMath.exe

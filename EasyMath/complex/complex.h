@@ -1,24 +1,27 @@
 #pragma once
 #include <cmath>
 #include <iostream>
+
 class Complex
 {
-public:
+private:
 
 	int real;
 	int imaginary;
-	unsigned int module;
+
+public:
 
 	Complex(int re, int im);
 	~Complex();
+	int getRe() const;
+	int getIm() const;
 
-	bool isReal();
-	bool isImaginary();
+	bool isReal() const;
+	bool isImaginary() const;
 	Complex conjugate();
-	void display();
+	void display() const;
+	double getModulus() const;
 
 	//TODO add operators
 
-private:
-	
 };
